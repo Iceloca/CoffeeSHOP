@@ -2,8 +2,8 @@
 ---
 
 # Содержание
-1 [Введение](#introduction)
-1.1 [Назначение](#purpose)
+1 [Введение](#introduction)<br>
+1.1 [Назначение](#purpose)<br>
 1.2 [Бизнес-требования](#business_requirements)<br>
 1.2.1 [Исходные данные](#initial_data)<br>
 1.2.2 [Возможности бизнеса](#business_opportunities)<br>
