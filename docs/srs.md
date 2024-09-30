@@ -113,30 +113,39 @@
 
 ## 2.2 Интерфейс пользователя
 Вход в приложение
+
 ![Вход в приложение](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/sign_in.png)
 
 Окно регистрации
+
 ![Окно регистрации](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/sign_up.png)
 
 Окно меню
+
 ![Окно меню](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/menu.png)
 
 Боковое меню
+
 ![Боковое меню](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/side_menu.png).
 
 Окно бонусного меню
+
 ![Окно бонусного меню](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/bonus_menu.png).
 
 Окно карты лояльности
+
 ![Окно карты лояльности](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/loyalty_card.png).
 
 Окно о нас
+
 ![Окно о нас](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/about_us.png).
 
 Окно поддержки
+
 ![Окно поддержки](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/support.png).
 
 Корзина заказа
+
 ![Корзина заказа](https://github.com/Iceloca/CoffeeSHOP/blob/main/docs/mockups/cart.png).
 
 
