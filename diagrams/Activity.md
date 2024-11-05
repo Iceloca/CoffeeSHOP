@@ -16,4 +16,4 @@
 
 ### 3. Меню<a name="3"></a>
 
-![Меню](hhttps://github.com/Iceloca/CoffeeSHOP/blob/main/diagrams/images/activity_menu.png)
+![Меню](https://github.com/Iceloca/CoffeeSHOP/blob/main/diagrams/images/activity_menu.png)
