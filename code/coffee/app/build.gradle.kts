@@ -38,6 +38,11 @@ android {
         viewBinding =true
         compose = true
     }
+    externalNativeBuild {
+        cmake {
+            path = File("src/main/cpp/CMakeLists.txt")
+        }
+    }
 }
 
 dependencies {

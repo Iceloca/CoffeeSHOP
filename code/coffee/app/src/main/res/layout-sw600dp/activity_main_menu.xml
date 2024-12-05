@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:background="@color/white"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context=".MainMenuActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="134dp"
-        android:layout_height="87dp"
+        android:layout_width="168dp"
+        android:layout_height="133dp"
         android:layout_marginTop="40dp"
         android:foregroundGravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,27 +35,29 @@
 
     <ImageView
         android:id="@+id/imageView01"
-        android:layout_width="147dp"
-        android:layout_height="128dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="196dp"
+        android:layout_width="243dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="164dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/espresso" />
+
     <TextView
         android:id="@+id/textView01"
-        android:layout_width="140dp"
-        android:layout_height="32dp"
+        android:layout_width="237dp"
+        android:layout_height="47dp"
         android:layout_marginTop="32dp"
-        android:textColor="@color/black"
+        android:textSize="10pt"
         android:text="Espresso\n 6 BYN"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/imageView01"
         app:layout_constraintTop_toBottomOf="@+id/imageView01" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/espresso_btn"
-        android:layout_width="146dp"
-        android:layout_height="39dp"
+        android:layout_width="237dp"
+        android:layout_height="49dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/brown_btn"
         android:gravity="center"
@@ -66,29 +69,31 @@
 
     <ImageView
         android:id="@+id/imageView02"
-        android:layout_width="147dp"
-        android:layout_height="128dp"
-        android:layout_marginTop="196dp"
+        android:layout_width="262dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="164dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.681"
         app:layout_constraintStart_toEndOf="@+id/imageView01"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cappuccino" />
 
     <TextView
         android:id="@+id/textView02"
-        android:layout_width="140dp"
-        android:layout_height="32dp"
-        android:textColor="@color/black"
+        android:layout_width="263dp"
+        android:layout_height="48dp"
         android:layout_marginTop="32dp"
         android:text="Cappuccino\n 7 BYN"
+        android:textColor="@color/black"
+        android:textSize="10pt"
         app:layout_constraintStart_toStartOf="@+id/imageView02"
         app:layout_constraintTop_toBottomOf="@+id/imageView02" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cappucino_btn"
-        android:layout_width="146dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="266dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/brown_btn"
         android:gravity="center"
         android:text="Buy"
@@ -99,19 +104,20 @@
 
     <ImageView
         android:id="@+id/imageView03"
-        android:layout_width="147dp"
-        android:layout_height="128dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="464dp"
+        android:layout_width="251dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="496dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/latte" />
 
     <TextView
         android:id="@+id/textView03"
-        android:layout_width="140dp"
-        android:layout_height="32dp"
+        android:layout_width="253dp"
+        android:layout_height="43dp"
         android:layout_marginTop="32dp"
+        android:textSize="10pt"
         android:text="Latte \n 7 BYN"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/imageView03"
@@ -119,8 +125,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/latte_btn"
-        android:layout_width="146dp"
-        android:layout_height="39dp"
+        android:layout_width="245dp"
+        android:layout_height="47dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/brown_btn"
         android:gravity="center"
@@ -132,29 +138,31 @@
 
     <ImageView
         android:id="@+id/imageView04"
-        android:layout_width="147dp"
-        android:layout_height="128dp"
-        android:layout_marginTop="464dp"
+        android:layout_width="286dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="484dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.709"
         app:layout_constraintStart_toEndOf="@+id/imageView03"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tea" />
+
     <TextView
         android:id="@+id/textView04"
-        android:layout_width="140dp"
-        android:textColor="@color/black"
-        android:layout_height="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="286dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:textSize="10pt"
         android:text="Tea \n 5 BYN"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/imageView04"
         app:layout_constraintTop_toBottomOf="@+id/imageView04" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/tea_btn"
-        android:layout_width="146dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/brown_btn"
         android:gravity="center"
         android:text="Buy"
@@ -162,8 +170,6 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView04"
         app:layout_constraintTop_toBottomOf="@+id/textView04" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

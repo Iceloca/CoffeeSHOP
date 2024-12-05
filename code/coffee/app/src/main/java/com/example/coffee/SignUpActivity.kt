@@ -20,6 +20,12 @@ import java.net.URL
 
 class SignUpActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignUpBinding
+    companion object {
+        init {
+            System.loadLibrary("password_validator") // Подгружаем библиотеку
+        }
+    }
+    external fun isPasswordValid(password: String): Boolean
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySignUpBinding.inflate(layoutInflater)
@@ -33,7 +39,12 @@ class SignUpActivity : AppCompatActivity() {
         binding.signUpBtn.setOnClickListener {
             val email = binding.UserEmail.text.toString()
             val password = binding.UserPassword.text.toString()
-            println(email)
+
+            if (!isPasswordValid(password)) {
+                binding.textError.text = "Password must be longer than 8 characters"
+                return@setOnClickListener
+            }
+
             CoroutineScope(Dispatchers.Main).launch {
                 val isSuccessful = sendPostRequest(email, password)
                 if (isSuccessful) {
